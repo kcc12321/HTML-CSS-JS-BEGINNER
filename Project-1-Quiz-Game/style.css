@@ -1,0 +1,11 @@
+/* Basic Reset */
+
+/* Changes how the browser calculates an element's total width and height */
+* {
+    margin: 0;
+    padding: 0;
+    /* Changes how the browser calculates an element's total width and height */
+    /* Sin: 100px + 10px de padding horizontal = 10px + 100px + 10px = 120px */
+    /* Con: 100px + 10px de padding horizontal = 10px + 80px + 10px = 100px */
+    box-sizing: border-box;
+}
